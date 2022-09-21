@@ -1,0 +1,161 @@
+.section2 {
+  margin-bottom: 100px;
+}
+.titleWrap_2 {
+  border-bottom: 2px solid #3bb4a8;
+  padding-bottom: 15px;
+}
+
+.textWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  width: 95px;
+  height: 40px;
+  background-color: #f6f7f8;
+  color: #32343b;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dfe2ea;
+  cursor: pointer;
+}
+
+.subTitleWrap {
+  padding: 35px 30px 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #404040;
+  border-bottom: 1px solid #ababab;
+}
+
+.subTitleWrap img {
+  width: 25px;
+  height: 13px;
+  cursor: pointer;
+}
+
+.square {
+  width: 8px;
+  height: 8px;
+  background-color: #3bb4a8;
+  margin-right: 20px;
+}
+
+.subTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.boxWrap {
+  display: none;
+}
+
+.boxWrap:last-child {
+  margin-bottom: 0;
+}
+
+.box {
+  border-top: 1px solid #ababab;
+  display: flex;
+}
+.box:first-child {
+  border-top: none;
+}
+.box:last-child {
+  border-bottom: 1px solid #ababab;
+}
+
+.conName {
+  width: 24%;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #232427;
+}
+.box ul {
+  padding: 0 0 0 35px;
+}
+.conWrap {
+  display: flex;
+  margin-top: 25px;
+}
+
+.conWrap:last-child {
+  margin-bottom: 25px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #1c6e66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.circle div {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1c6e66;
+}
+
+.con {
+  font-size: 16px;
+  font-weight: 600;
+  color: #404040;
+}
+
+@media all and (max-width: 1024px) {
+  .conName {
+    width: 35%;
+    text-align: center;
+    line-height: 25px;
+  }
+  .box ul {
+    padding: 0 0 0 15px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .box {
+    display: block;
+  }
+  .subTitleWrap {
+    padding: 10px 15px;
+  }
+  .subTitle {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .conName {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    border-bottom: 1px solid #abafbc;
+    line-height: 25px;
+  }
+  .conWrap {
+    margin-top: 15px;
+  }
+  .conWrap:last-child {
+    margin-bottom: 15px;
+  }
+  .con {
+    font-size: 12px;
+  }
+}
