@@ -12,3 +12,11 @@
 .turn {
   transform: rotateZ(180deg);
 }
+
+.on {
+  background-color: #eee;
+}
+
+.onBox {
+  display: block;
+}
